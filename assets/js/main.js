@@ -9,8 +9,8 @@
 	var $window = $(window),
 		$body = $('body'),
 		$header = $('#header'),
-		$footer = $('#footer'),
 		$main = $('#main'),
+		$footer = $('#footer'),
 		settings = {
 
 			// Parallax background effect?
@@ -50,7 +50,7 @@
 
 		}
 
-	// Footer.
+	/* Footer.
 		breakpoints.on('<=medium', function() {
 			$footer.insertAfter($main);
 		});
@@ -58,7 +58,7 @@
 		breakpoints.on('>medium', function() {
 			$footer.appendTo($header);
 		});
-
+    */
 	// Header.
 
 		// Parallax background.
