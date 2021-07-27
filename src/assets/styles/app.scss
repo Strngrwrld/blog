@@ -1,0 +1,93 @@
+@import '~bootstrap/scss/bootstrap';
+
+$primary: #020024;
+$second: #094a94;
+$thrid: #40c4ff;
+$fourth: #ffffff;
+
+body {
+  background-color: $fourth;
+}
+
+* {
+  box-sizing: border-box;
+  text-decoration: none !important;
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: $fourth;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+.disabled {
+  color: grey;
+  opacity: 0.6;
+}
+
+.invisibility {
+  display: none !important;
+}
+
+.visibility {
+  display: block !important;
+}
+
+input {
+  width: 90%;
+  height: 100%;
+  border: none;
+  border-radius: 0px;
+  padding: 1em;
+  margin: 0;
+  background-color: #ececec;
+}
+
+.btn {
+  display: flex;
+  flex-flow: row nowrap;
+  text-align: center;
+  justify-content: center;
+}
+
+.MuiSvgIcon-root {
+  color: white;
+  margin: 0rem 0.2rem;
+}
+
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+
+//Overwhite bootstrap colors
+
+.btn-primary{
+  background-color: transparent;
+  color: $fourth;
+  border-color: $fourth;
+}
+
+.btn-primary:hover{
+  background-color: rgba(255, 255, 255, 0.788);
+  color: $second;
+  border-color: $fourth;
+}
+
+/*
+.btn-check:focus + .btn-primary, .btn-primary:focus {
+  color: #fff;
+  background-color: #0b5ed7;
+  border-color: #0a58ca;
+  box-shadow: 0 0 0 0.25rem rgb(49 132 253 / 50%);
+}
+*/
